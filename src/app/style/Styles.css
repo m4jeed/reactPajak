@@ -1,0 +1,133 @@
+.root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin: 0px auto;
+    border: rgba(0,0,0,0.1) 1px solid;
+    min-height: 100vh;
+}
+
+.css_line{
+    height: 0.5px;
+    background-color: rgba(0,0,0,0.1);
+}
+
+.centered {
+    height: 100vh; /* Magic here */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.input__control {
+    display: block;
+    width: 100%;
+    max-height: 40px;
+    margin-bottom: 4px;
+    padding: 10px 14px;
+    font-size: 14px;
+    color: rgba(0,0,0,.7);
+    border: 1px solid #e0e0e0;
+    border-radius: 3px;
+    box-sizing: border-box;
+    box-shadow: none;
+    line-height: normal;
+    transition: border .2s linear;
+}
+
+.input__group {
+    display: block;
+    position: relative;
+    text-align: left;
+}
+
+.input__label {
+    display: block;
+    margin-bottom: 7px;
+    font-size: 12px;
+    line-height: 1.33;
+    color: rgba(0,0,0,0.6);
+}
+
+.btn-1 {
+    width: 100%;
+    color: #FFFFFF;
+    font-size: 0.8571428571428571rem;
+    height: 36px;
+    line-height: 18px;
+    width: auto;
+    border-radius: 8px;
+    background-position: center;
+    font-weight: 500;
+    outline: none;
+    overflow: hidden;
+    padding: 0 18px;
+    position: relative;
+    text-overflow: ellipsis;
+    -webkit-transition: background 0.8s;
+    transition: background 0.8s;
+    white-space: nowrap;
+    cursor: pointer;
+    display: inline-block;
+    background: #03AC0E radial-gradient(circle,transparent 1%,#03AC0E 1%) center/15000%;
+    border: none;
+    text-indent: initial;
+    position: relative;
+}
+
+
+.css-app-bar {
+    width: 100%;
+    height: 52px;
+    color: rgba(0,0,0,0.7);
+    -webkit-transition: background-color 0.24s ease;
+    transition: background-color 0.24s ease;
+    background-color: white;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.15);
+    
+}
+
+.css-card-shadow {
+    display: block;
+    position: relative;
+    padding: 16px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(49, 53, 59, 0.12) 0px 1px 6px 0px;
+    overflow: hidden;
+    margin: 0px !important;
+    border-radius: 4px !important;
+}
+
+.popup {  
+    position: absolute;  
+    height: 100%;  
+    top: 10px;  
+    left: 0;  
+    right: 0;  
+    bottom: 10;  
+    margin-left: 10px;
+    margin-right: 10px;
+    margin: auto; 
+    max-width: 500px;
+  }
