@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/reactPajak/static/css/main.f0f5b9d2.chunk.css",
+    "main.js": "/reactPajak/static/js/main.9e915d48.chunk.js",
+    "main.js.map": "/reactPajak/static/js/main.9e915d48.chunk.js.map",
+    "runtime-main.js": "/reactPajak/static/js/runtime-main.91b676b6.js",
+    "runtime-main.js.map": "/reactPajak/static/js/runtime-main.91b676b6.js.map",
+    "static/js/2.ab38da78.chunk.js": "/reactPajak/static/js/2.ab38da78.chunk.js",
+    "static/js/2.ab38da78.chunk.js.map": "/reactPajak/static/js/2.ab38da78.chunk.js.map",
+    "index.html": "/reactPajak/index.html",
+    "precache-manifest.787b1372de286cd9ae380f55817af2c8.js": "/reactPajak/precache-manifest.787b1372de286cd9ae380f55817af2c8.js",
+    "service-worker.js": "/reactPajak/service-worker.js",
+    "static/css/main.f0f5b9d2.chunk.css.map": "/reactPajak/static/css/main.f0f5b9d2.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.91b676b6.js",
+    "static/js/2.ab38da78.chunk.js",
+    "static/css/main.f0f5b9d2.chunk.css",
+    "static/js/main.9e915d48.chunk.js"
+  ]
+}
